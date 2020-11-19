@@ -2,7 +2,7 @@
 
 #### What it is:
 
-This is an example of how to display a portion of data in a PySimplGUI Listbox while effecting changes to a larger portion of data, and also an example of how to use the metadata parameter. 
+This is an example of how to display a portion of data in a PySimpleGUI Listbox while effecting changes to a larger portion of data, and also an example of how to use the metadata parameter. 
 
 #### How it works:
 
