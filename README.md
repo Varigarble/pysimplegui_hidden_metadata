@@ -1,4 +1,4 @@
-# PySimpleGUI metadata example
+# PySimpleGUI hidden metadata example
 
 #### What it is:
 
