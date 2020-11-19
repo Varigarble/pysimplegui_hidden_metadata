@@ -19,7 +19,8 @@ gui_shelf = [(item[0], item[2]) for item in shelf]  # a subset of data for a pre
 bag = []  # empty bag to fill at checkout
 
 layout = [[sg.T("Shelf", size=(37, 0), justification='left'), sg.T("Basket", size=(37, 0), justification='left')],
-        [sg.Listbox(values=gui_shelf, size=(40, 10), select_mode='multiple', key='SELECTION', enable_events=True, metadata=()),
+        [sg.Listbox(values=gui_shelf, size=(40, 10), select_mode='multiple', key='SELECTION', enable_events=True, \
+            metadata=()),
         sg.Listbox(values=['Empty Basket'], size=(40, 10), key='BASKET')],
         [sg.B("View Metadata", key='-META-'), sg.B("Checkout", key='CHECKOUT')]
         ]
