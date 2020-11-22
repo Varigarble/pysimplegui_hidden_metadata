@@ -6,7 +6,7 @@ This is an example of how to display a portion of data in a PySimpleGUI Listbox 
 
 #### How it works:
 
-The enumerated namedtuple class list (indexed_list) approximates a data type that one might compose in retrieving rows from a database. The enumeration (e.g., a database row id) and product SKUs are not displayed in the Listbox gui. When a selection is made in the 'Shelf' Listbox, the metadata is updated with the indexes of the highlighted items. The final output is copied from the indexed_list by retrieving the items that are at the indexes corresponding to those values collected in the metadata parameter.
+The enumerated namedtuple class list (indexed_list) approximates a data type that one might compose in retrieving rows from a database. The enumeration (e.g., a database row id) and product SKUs are not displayed in the Listbox gui. When a selection is made in the 'Shelf' Listbox, the metadata is updated with the indexes of the highlighted items. The final output is copied from the indexed_list by retrieving the items that are at the indexes corresponding to those values collected in the metadata parameter. The metadata parameter is not the only way to store the indexes, and there are probably more interesting uses for it, but there was no official documentation from PySimpleGUI on how to use the metadata parameter, so I worked it out and published this example.
 
 #### Why do it this way:
 
