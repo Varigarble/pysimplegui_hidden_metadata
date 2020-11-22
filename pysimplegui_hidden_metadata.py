@@ -14,7 +14,7 @@ soy_cake = Produce('Tofu', 88682, 4.25)
 shelf = [banana, apple, beans, soy_cake, apple, apple, organic_banana]
 # the "shelf" list index is hardcoded to the items so that we can see the exact items that are placed in the bag:
 indexed_shelf = list(enumerate(shelf))
-gui_shelf = [(item[0], item[2]) for item in shelf]  # a subset of data for a pretty display
+gui_shelf = [("Item:", item[0], "Price:", item[2]) for item in shelf]  # a subset of data for a pretty display
 
 bag = []  # empty bag to fill at checkout
 
