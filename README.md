@@ -15,4 +15,4 @@ ___
 
 ![shopping_trip](https://github.com/Varigarble/pysimplegui_hidden_metadata/blob/main/shopping_trip_090856.JPG)
 
-Clicking "View Metadata" prints the "metadata" ("Shelf" Listbox selection indices) line to the console. Clicking "Checkout" prints the items that have been copied to the "bag" list from the "shelf" list, not from the "Shelf" Listbox.
+Clicking "View Metadata" prints the "metadata" ("Shelf" Listbox selection indexes) line to the console. Clicking "Checkout" prints the items that have been copied to the "bag" list from the "shelf" list, not from the "Shelf" Listbox.
