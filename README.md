@@ -10,4 +10,9 @@ The enumerated namedtuple class list (indexed_list) approximates a data type tha
 
 #### Why do it this way:
 
-The Listbox returns an ordinary Python list class. It is possible to compare the displayed items to larger pieces of data that contain the displayed items, but this can lead to false matches if the displayed data is not unique enough. For example, the organic banana at the end of the list has the same name and price as the non-organic banana. If we search the indexed_list for the item that matches the name and price, Python will stop at the first match, which would be the non-organic banana. 
+The Listbox returns an ordinary Python list class. It is possible to compare the displayed items to larger pieces of data that contain the displayed items, but this can lead to false matches if the displayed data is not unique enough. For example, the organic banana at the end of the list has the same name and price as the non-organic banana. If we search the indexed_list for the item that matches the name and price, Python will stop at the first match, which would be the non-organic banana.
+___
+
+![shopping_trip](https://github.com/Varigarble/pysimplegui_hidden_metadata/blob/main/shopping_trip_090856.JPG)
+
+Clicking "View Metadata" prints the "metadata" ("Shelf" Listbox selection indices) line to the console. Clicking "Checkout" prints the items that have been copied to the "bag" list from the "shelf" list, not from the "Shelf" Listbox.
